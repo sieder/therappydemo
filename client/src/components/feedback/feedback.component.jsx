@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from 'antd'
 import axios from 'axios'
-const SERVER_URL = 'http://localhost:4000'
+const SERVER_URL = 'https://arcane-savannah-62336.herokuapp.com'
 
 const Feedback = props => {
 

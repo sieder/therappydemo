@@ -10,6 +10,9 @@ const feedbackSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
+    postedBy: {
+        type: String
+    },
     owner: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,

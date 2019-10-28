@@ -5,7 +5,7 @@ import { Form, Icon, Input, Button } from 'antd';
 
 import jwt_decode from 'jwt-decode'
 import axios from 'axios'
-const SERVER_URL = 'http://localhost:4000'
+const SERVER_URL = 'https://arcane-savannah-62336.herokuapp.com/'
 
 
 
@@ -17,7 +17,7 @@ const Login = () => {
     const login = (e) => {
         e.preventDefault()
 
-        axios.post(SERVER_URL + "/users/login", {
+        axios.post(SERVER_URL + "users/login", {
             email: email,
             password: password
         }).then((result) => {
