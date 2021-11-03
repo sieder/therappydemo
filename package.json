@@ -22,7 +22,7 @@
     "mongodb": "^3.3.3",
     "mongoose": "^5.7.5",
     "react-router-dom": "^5.1.2",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "concurrently": "^5.0.0",
